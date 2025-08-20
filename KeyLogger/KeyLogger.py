@@ -29,10 +29,10 @@ def writetofile(key):
         #if enter key is pressed create a new line in txt file
         elif (key == key.enter):
             f.write("\n");
-
+        #if key is shift, make key uppercase
         elif (key == key.shift):
             f.write(key.uppercase)
-
+        #end
         pass
   
 
